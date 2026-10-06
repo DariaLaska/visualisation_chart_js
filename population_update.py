@@ -5,7 +5,7 @@ from pymysql.cursors import DictCursor, Cursor
 dbh = pymysql.connect(
         host='ithub-ai.ru',
         user='teacher',
-        password='a-007-007-007',
+        password='###',
         db='ithub',
         charset='utf8mb4',
         cursorclass=DictCursor
